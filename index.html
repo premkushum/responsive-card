@@ -51,21 +51,21 @@
                             <th>Price</th>
                             <th>Quantity</th>
                             <th>Subtotal</th>
-                            <!-- <th>Action</th> -->
+                            <th>Action</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
+                        <tr data-id="1">
                             <td>
                                 <div class="product">
                                     <img src="Group 146.png" alt="Asgaard Sofa">
                                     <p>Asgaard Sofa</p>
                                 </div>
                             </td>
-                            <td>Rs. 250,000.00</td>
-                            <td><input type="number" value="1" min="1"></td>
-                            <td>Rs. 250,000.00</td>
-                            <!-- <td><i class="fas fa-trash"></i></td> -->
+                            <td class="price">Rs. 250,000.00</td>
+                            <td><input type="number" value="1" min="1" class="quantity-input"></td>
+                            <td class="subtotal" data-id="1">Rs. 250,000.00</td>
+                            <td><i class="fas fa-trash" data-id="1"></i></td>
                         </tr>
                     </tbody>
                 </table>
@@ -77,7 +77,7 @@
                 <div class="totals">
                     <div class="totals-row">
                         <span>Subtotal</span>
-                        <span>Rs. 250,000.00</span>
+                        <span class="subtotal-total">Rs. 250,000.00</span>
                     </div>
                     <div class="totals-row">
                         <span>Total</span>
@@ -122,21 +122,9 @@
             </div>
         </div>
     </footer>
-    
 
-    <script>
-        document.addEventListener("DOMContentLoaded", () => {
-            const checkoutButton = document.getElementById("checkout-button");
+    <!-- Link to external script file -->
+    <script src="script.js"></script>
 
-            if (checkoutButton) {
-                checkoutButton.addEventListener("click", () => {
-                    alert("Proceeding to checkout!");
-                    console.log("Checkout button clicked");
-                });
-            } else {
-                console.error("Checkout button not found!");
-            }
-        });
-    </script>
 </body>
 </html>
