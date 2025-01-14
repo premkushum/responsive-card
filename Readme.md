@@ -43,3 +43,15 @@ Modify the content inside the HTML tags (e.g., change the title, description, or
 3. Styling and Customization
 Adjust the design and layout by editing the style.css file.
 If needed, add custom JavaScript functionality by editing script.js.
+
+
+
+#**Deployment**
+<!-- You can view the live project by clicking on the following link: -->
+      responsive-card-7ffba7zfc-prem-kushums-projects.vercel.app
+--->Live Project on Vercel
+#**GitHub Repository**
+<!-- You can also view or contribute to the source code by visiting the GitHub repository: -->
+    https://github.com/premkushum/responsive-card.git
+
+GitHub Repository - Responsive Card
